@@ -1,0 +1,219 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-container {
+  width: 1280px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.logo {
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 0 10px;
+}
+
+.logo-description {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #292929;
+  margin: 0;
+}
+
+.link {
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.active-link {
+  color: #292929;
+  border-bottom: 1px solid #F1CDB3;
+}
+
+.last-link {
+  margin-right: 0;
+}
+
+.pets {
+  width: 1280px;
+  background: #F6F6F6;
+}
+
+.pets-heading {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 80px 0 45px 0;
+}
+
+.cards-container {
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 270px;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 30px 40px;
+}
+
+.card-name {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 30px 0;
+}
+
+.card-button {
+  width: 187px;
+  padding: 15px 0;
+  background: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.card-button-name {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.navigation {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.nav-button {
+  border: none;
+  background: #F6F6F6;
+}
+
+.footer {
+  width: 1280px;
+  background: url(noise_lines_transparent@2X.png),
+    radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%),
+    #211F20;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-contacts {
+  width: 279px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
+
+.mail {
+  margin: 40px 0;
+}
+
+.footer-contacts-name {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.footer-location {
+  width: 302px;
+}
+
+.location {
+  margin: 34px 0 32px 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
